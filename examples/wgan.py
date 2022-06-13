@@ -7,9 +7,9 @@ from torchvision.utils import make_grid
 from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
 
-from artgan.modules.gen import WGenerator
-from artgan.modules.disc import WCritic
-from artgan.utils import get_gradient, gradient_penalty, get_gen_loss, get_crit_loss
+from theartificialis.modules.gen import WGenerator
+from theartificialis.modules.disc import WCritic
+from theartificialis.utils import get_gradient, gradient_penalty, get_gen_loss, get_crit_loss
 
 torch.manual_seed(0) # Set for testing purposes, please do not change!
 

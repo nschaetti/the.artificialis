@@ -13,8 +13,8 @@ from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
 
 # ArtGAN imports
-from artgan.modules import FFGenerator, FFDiscriminator
-from artgan.utils import show_tensor_images
+from theartificialis.modules import FFGenerator, FFDiscriminator
+from theartificialis.utils import show_tensor_images
 
 torch.manual_seed(0)
 

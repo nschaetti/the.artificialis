@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from scipy.io import wavfile
 
 # ArtGAN imports
-from artgan.utils import write_curve
+from theartificialis.utils import write_curve
 
 # Sample rate
 sample_rate = 44100
