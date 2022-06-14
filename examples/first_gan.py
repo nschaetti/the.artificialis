@@ -33,10 +33,8 @@ def get_noise(
         z_dim: the dimension of the noise vector, a scalar
         device: the device type
     """
-    # Generate n_samples random vectors of dimenson z_dim on device
+    # Generate n_samples random vectors of dimension z_dim on device
     return torch.randn(n_samples, z_dim, device=device)
-
-
 # end get_noise
 
 
